@@ -32,5 +32,17 @@
       "npm run lint",
       "git add"
     ]
+  },
+  "moduleFileExtensions": [
+    "js",
+    "ts",
+    "tsx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CameronBrouk/interface-practice-build"
+  },
+  "bugs": {
+    "url": "https://github.com/CameronBrouk/Stl-Swing-Dance/issues"
   }
 }
