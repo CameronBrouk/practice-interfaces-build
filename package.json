@@ -28,7 +28,7 @@
     }
   },
   "lint-staged": {
-    "*.ts": [
+    "src/**/*.ts": [
       "npm run lint",
       "git add"
     ]
