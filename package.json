@@ -5,9 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "npm run lint",
     "build": "tsc",
-    "lint": "eslint 'src/**/*.ts'",
-    "lint:fix": "eslint 'src/**/*.ts' --fix ."
+    "lint": "eslint 'src/**/*.ts' --fix"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,13 @@
     "eslint": "^8.9.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
     "typescript": "^4.5.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
