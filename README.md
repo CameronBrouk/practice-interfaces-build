@@ -70,5 +70,11 @@ npm i -D \
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+"lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "git add"
+    ]
   }
 ```
