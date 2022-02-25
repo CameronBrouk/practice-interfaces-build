@@ -3,11 +3,18 @@
     /* Projects */
 
     /* Language and Environment */
-    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "baseUrl": "./src",
+    "rootDir": "./src",
+
+    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "outDir": "./dist",
 
+    "declaration": true,
+    "declarationDir": "./dist",
+    "declarationMap": true,
+
     /* Modules */
-    "module": "commonjs" /* Specify what module code is generated. */,
+    "module": "ESNext" /* Specify what module code is generated. */,
 
     /* JavaScript Support */
 

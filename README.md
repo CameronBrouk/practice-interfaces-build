@@ -78,3 +78,15 @@ npm i -D \
     ]
   }
 ```
+
+## export type files
+
+1. add properties to tsconfig to declare the export
+
+```
+  {
+    "declaration": true,
+    "declarationDir: ".",
+    "declarationMap: true,
+  }
+```
