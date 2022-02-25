@@ -71,8 +71,8 @@ npm i -D \
       "pre-commit": "lint-staged"
     }
   },
-"lint-staged": {
-    "*.js": [
+  "lint-staged": {
+    "*.ts": [
       "npm run lint",
       "git add"
     ]
