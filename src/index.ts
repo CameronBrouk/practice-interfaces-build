@@ -1,4 +1,3 @@
-import { InferArrayElement } from "./utils";
 
 console.log("test");
 
